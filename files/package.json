@@ -9,7 +9,8 @@
 		"prettify": "prettier --write **/*.{ts,tsx,js,jsx} && eslint --fix **/*.{ts,tsx,js,jsx}",
 		"lint:text": "npx textlint **/*.md",
 		"browserslist:update": "npx browserslist@latest --update-db",
-		"prepare": "husky install && npm run browserslist:update"
+		"configure": "husky install && npm run browserslist:update",
+		"prepare": "npm run configure"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^12.1.4",
