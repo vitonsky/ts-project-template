@@ -7,6 +7,7 @@
 	"author": "Name <contact>",
 	"scripts": {
 		"prettify": "prettier --write **/*.{ts,tsx,js,jsx} && eslint --fix **/*.{ts,tsx,js,jsx}",
+		"lint:text": "npx textlint **/*.md",
 		"browserslist:update": "npx browserslist@latest --update-db",
 		"prepare": "husky install && npm run browserslist:update"
 	},
@@ -22,9 +23,12 @@
 		"husky": "^6.0.0",
 		"lint-staged": "^11.0.0",
 		"prettier": "^2.3.1",
+		"textlint": "^12.0.0",
+		"textlint-filter-rule-comments": "^1.2.2",
 		"stylelint": "^13.13.1",
 		"stylelint-config-standard": "^22.0.0",
 		"stylelint-no-unsupported-browser-features": "^5.0.1",
-		"typescript": "^4.3.2"
+		"typescript": "^4.3.2",
+		"textlint-rule-common-misspellings": "^1.0.1"
 	}
 }

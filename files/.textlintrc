@@ -1,0 +1,11 @@
+{
+	"rules": {
+        "common-misspellings": {
+            // Misspellings to be ignored (case-insensitive)
+            "ignore": []
+        }
+    }
+	"filters": {
+		"comments": true
+	}
+}
