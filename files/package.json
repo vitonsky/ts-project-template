@@ -6,7 +6,7 @@
 	"license": "Apache-2.0",
 	"author": "Name <contact>",
 	"scripts": {
-		"prettify": "prettier --write **/*.{ts,tsx,js,jsx} && eslint --fix **/*.{ts,tsx,js,jsx}",
+		"prettify": "prettier --write \"{*,**/*}.{ts,tsx,js,jsx}\" && eslint --fix \"{*,**/*}.{ts,tsx,js,jsx}\"",
 		"lint:text": "npx textlint \"{*,**/*}.md\"",
 		"browserslist:update": "npx browserslist@latest --update-db",
 		"configure": "husky install && npm run browserslist:update",
