@@ -1,5 +1,6 @@
 # thirdparty
 node_modules
 
-# special files
-*.txt
+# artifacts
+out
+dist
