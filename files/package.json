@@ -1,13 +1,9 @@
 {
 	"name": "name",
 	"version": "0.0.1",
-	"description": "",
-	"keywords": [],
-	"license": "Apache-2.0",
-	"author": "Name <nobody@example.com>",
 	"scripts": {
 		"test": "jest",
-		"prettify": "prettier --write \"{*,**/*}.{ts,tsx,js,jsx}\" && eslint --fix \"{*,**/*}.{ts,tsx,js,jsx}\"",
+		"prettify": "prettier --write \"{*,**/*}.{ts,tsx,js,jsx}\" && eslint --fix \"{*,**/*}.{ts,tsx,js,jsx}\" && stylelint --fix \"{*,**/*}.css\"",
 		"lint:text": "npx textlint \"{*,**/*}.md\"",
 		"browserslist:update": "npx browserslist@latest --update-db",
 		"packages:upgrade": "npx npm-check-updates -u",
