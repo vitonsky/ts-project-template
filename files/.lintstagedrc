@@ -3,7 +3,7 @@
 		"prettier --write",
 		"eslint --fix"
 	],
-	"*.md": [
+	"*.{md,mdx}": [
 		"prettier --write --parser markdown",
 		"textlint --fix"
 	],
