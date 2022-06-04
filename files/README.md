@@ -1,6 +1,6 @@
-Short project description.
+Short one paragraph description, which answer to question "what is this?".
 
-Detailed description.
+Detailed description in few paragrapghs about "for what this?" and how it works.
 
 # Features
 
